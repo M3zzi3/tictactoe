@@ -13,6 +13,11 @@
 		AD8C7C5E1B214F7700413B97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8C7C5D1B214F7700413B97 /* Images.xcassets */; };
 		AD8C7C611B214F7700413B97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8C7C5F1B214F7700413B97 /* LaunchScreen.xib */; };
 		AD8C7C6D1B214F7700413B97 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8C7C6C1B214F7700413B97 /* Tic_Tac_ToeTests.swift */; };
+		ADEEECF11B21CCAF0034128D /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEEECF01B21CCAF0034128D /* board.png */; };
+		ADEEECF31B21CCC40034128D /* first.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ADEEECF21B21CCC40034128D /* first.pdf */; };
+		ADEEECF51B21CCE20034128D /* second.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ADEEECF41B21CCE20034128D /* second.pdf */; };
+		ADEEECF71B21CD290034128D /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEEECF61B21CD290034128D /* nought.png */; };
+		ADEEECF91B21CD4F0034128D /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEEECF81B21CD4F0034128D /* cross.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		AD8C7C661B214F7700413B97 /* Tic Tac ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8C7C6B1B214F7700413B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD8C7C6C1B214F7700413B97 /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		ADEEECF01B21CCAF0034128D /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		ADEEECF21B21CCC40034128D /* first.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = first.pdf; sourceTree = "<group>"; };
+		ADEEECF41B21CCE20034128D /* second.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = second.pdf; sourceTree = "<group>"; };
+		ADEEECF61B21CD290034128D /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		ADEEECF81B21CD4F0034128D /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,11 @@
 				AD8C7C561B214F7700413B97 /* AppDelegate.swift */,
 				AD8C7C581B214F7700413B97 /* ViewController.swift */,
 				AD8C7C5A1B214F7700413B97 /* Main.storyboard */,
+				ADEEECF01B21CCAF0034128D /* board.png */,
+				ADEEECF81B21CD4F0034128D /* cross.png */,
+				ADEEECF61B21CD290034128D /* nought.png */,
+				ADEEECF41B21CCE20034128D /* second.pdf */,
+				ADEEECF21B21CCC40034128D /* first.pdf */,
 				AD8C7C5D1B214F7700413B97 /* Images.xcassets */,
 				AD8C7C5F1B214F7700413B97 /* LaunchScreen.xib */,
 				AD8C7C541B214F7600413B97 /* Supporting Files */,
@@ -192,8 +207,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEEECF71B21CD290034128D /* nought.png in Resources */,
+				ADEEECF51B21CCE20034128D /* second.pdf in Resources */,
+				ADEEECF11B21CCAF0034128D /* board.png in Resources */,
+				ADEEECF31B21CCC40034128D /* first.pdf in Resources */,
 				AD8C7C5C1B214F7700413B97 /* Main.storyboard in Resources */,
 				AD8C7C611B214F7700413B97 /* LaunchScreen.xib in Resources */,
+				ADEEECF91B21CD4F0034128D /* cross.png in Resources */,
 				AD8C7C5E1B214F7700413B97 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +429,7 @@
 				AD8C7C721B214F7700413B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD8C7C731B214F7700413B97 /* Build configuration list for PBXNativeTarget "Tic Tac ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				AD8C7C751B214F7700413B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
