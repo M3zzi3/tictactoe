@@ -13,6 +13,9 @@
 		ADEEED101B21DEC30034128D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEEED0F1B21DEC30034128D /* Images.xcassets */; };
 		ADEEED131B21DEC30034128D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADEEED111B21DEC30034128D /* LaunchScreen.xib */; };
 		ADEEED1F1B21DEC30034128D /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEEED1E1B21DEC30034128D /* Tic_Tac_ToeTests.swift */; };
+		ADEEED2B1B21DF990034128D /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEEED2A1B21DF990034128D /* cross.png */; };
+		ADEEED2D1B21DFC50034128D /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEEED2C1B21DFC50034128D /* board.png */; };
+		ADEEED311B21E00D0034128D /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEEED301B21E00D0034128D /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		ADEEED181B21DEC30034128D /* Tic Tac ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEEED1D1B21DEC30034128D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADEEED1E1B21DEC30034128D /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		ADEEED2A1B21DF990034128D /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		ADEEED2C1B21DFC50034128D /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		ADEEED301B21E00D0034128D /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				ADEEED081B21DEC30034128D /* AppDelegate.swift */,
 				ADEEED0A1B21DEC30034128D /* ViewController.swift */,
 				ADEEED0C1B21DEC30034128D /* Main.storyboard */,
+				ADEEED2C1B21DFC50034128D /* board.png */,
+				ADEEED301B21E00D0034128D /* nought.png */,
+				ADEEED2A1B21DF990034128D /* cross.png */,
 				ADEEED0F1B21DEC30034128D /* Images.xcassets */,
 				ADEEED111B21DEC30034128D /* LaunchScreen.xib */,
 				ADEEED061B21DEC30034128D /* Supporting Files */,
@@ -192,8 +201,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEEED2B1B21DF990034128D /* cross.png in Resources */,
 				ADEEED0E1B21DEC30034128D /* Main.storyboard in Resources */,
+				ADEEED311B21E00D0034128D /* nought.png in Resources */,
 				ADEEED131B21DEC30034128D /* LaunchScreen.xib in Resources */,
+				ADEEED2D1B21DFC50034128D /* board.png in Resources */,
 				ADEEED101B21DEC30034128D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
